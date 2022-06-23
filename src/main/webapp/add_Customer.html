@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Add Customer</h1>
+
+	<form action="add_Customer" method="post">
+		<fieldset>
+			<legend>Add Customer Form</legend>
+
+			Name: <input type="text" name="Cust_name" /><br /> <br /> Email:<input
+				type="email" name="Cust_email" /><br /> <br /> Phone:<input
+				type="number" name="Cust_phone" /><br /> <br />
+			<br />
+			<legend>Address</legend>
+			<br /> Street: <input type="text" name="Cust_street" /><br /> <br />
+			City:<input type="text" name="Cust_city" /><br /> <br /> State:<input
+				type="text" name="Cust_state" /><br /> <br />
+			<br />
+
+			<legend>Phone Numbers</legend>
+			<br /> Phone1: <input type="number" name="phone_1" /><br /> <br />
+			Phone1 Type: <input type="text" name="phone_1_type" /><br /> <br />
+			Phone2:<input type="number" name="phone_2" /><br /> <br /> Phone2
+			Type: <input type="text" name="phone_2_type" /><br /> <br />
+			Phone3:<input type="number" name="phone_3" /><br /> <br />
+			<br /> Phone3 Type: <input type="text" name="phone_3_type" /><br />
+			<br />
+			<p>
+				<label>Course1</label> <input type="text" name="course_1" /> <select
+					name="course_type_1">
+					<option value="1">Java</option>
+					<option value="2">Hibernate</option>
+					<option value="3">Spring</option>
+				</select>
+			</p>
+
+			<p>
+				<label>Course2</label> <input type="text" name="course_2" /> <select
+					name="course_type_2">
+					<option value="1">Java</option>
+					<option value="2">Hibernate</option>
+					<option value="3">Spring</option>
+				</select>
+			</p>
+
+			<p>
+				<label>Course3</label> <input type="text" name="course_3" /> <select
+					name="course_type_3">
+					<option value="1">Java</option>
+					<option value="2">Hibernate</option>
+					<option value="3">Spring</option>
+				</select>
+			</p>
+
+			<input type="submit" value="Add" />
+
+		</fieldset>
+	</form>
+
+</body>
+</html>
